@@ -1,5 +1,14 @@
 # VKontakte
 
+This fork is maintained in [GitLab](https://glab.ixbt.site/packages/socialite-vkontakte) on branch `master`.
+To select it instead of the upstream package, configure this VCS repository in the consuming
+application (GitLab access is required); the Composer package name remains `socialiteproviders/vkontakte`:
+
+```bash
+composer config repositories.socialite-vkontakte vcs https://glab.ixbt.site/packages/socialite-vkontakte.git
+composer require socialiteproviders/vkontakte:dev-master
+```
+
 ```bash
 composer require socialiteproviders/vkontakte
 ```
